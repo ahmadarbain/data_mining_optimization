@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytest
+.pytest_cache/
+
+# Logs and local files
+*.log
+*.sqlite
+*.db
+*.DS_Store
+
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Docker
+**/__pycache__/
+docker-compose.override.yml
+
+# Jupyter runtime
+~/.local/share/jupyter/runtime
+
+# Other IDEs
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
